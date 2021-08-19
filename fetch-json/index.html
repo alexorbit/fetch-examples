@@ -22,7 +22,7 @@
   <script>
     var myList = document.querySelector('ul');
 
-    fetch('https://ito.ishnd.finance/api/stage/full?secret=WqsT6uASAAYtbjlkcgN3N1MS')
+    fetch('products.json')
     .then(function(response) {
       if (!response.ok) {
         throw new Error("HTTP error, status = " + response.status);
